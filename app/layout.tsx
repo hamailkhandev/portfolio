@@ -8,7 +8,7 @@ import { ThemeProvider } from "@/components/theme-provider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Muhammad Hamail Khan",
+  title: "Hamail Khan",
   description:
     "Professional portfolio of Muhammad Hamail Khan, a highly skilled MERN Stack Developer specializing in React, Node.js, Express, and MongoDB.",
   keywords: [
