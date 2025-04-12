@@ -20,6 +20,9 @@ export const metadata: Metadata = {
     "Muhammad Hamail Khan",
     "Portfolio",
   ],
+  other: {
+    "google-site-verification": "NdibaD93GCqGdwknZmpm8Ufyb6SbPuojUKX8jb9GHMk",
+  },
   authors: [{ name: "Muhammad Hamail Khan" }],
   creator: "Muhammad Hamail Khan",
   openGraph: {
