@@ -1,0 +1,80 @@
+{
+  "name": "Muhammad Hamail Khan",
+  "title": "MERN STACK DEVELOPER",
+  "email": "mhamailkhandev@gmail.com",
+  "phone": "+92 307 5922237",
+  "location": "Karachi, Pakistan",
+  "bio": "Highly talented MERN Stack Developer with extensive experience developing scalable, high-performance web applications. Specialized in creating modern, responsive web applications with cutting-edge technologies.",
+  "resumeUrl": "/hamail-khan-resume.pdf",
+  "profileImage": "/profile-image-new.png",
+  "aboutImage": "/about-image.jpeg",
+  "typingTexts": [
+    "MERN Stack Developer",
+    "Full Stack Developer",
+    "Frontend Developer",
+    "Backend Developer"
+  ],
+  "socialLinks": {
+    "github": "https://github.com/hamailkhandev",
+    "linkedin": "https://www.linkedin.com/in/hamail-khan-dev/",
+    "twitter": ""
+  },
+  "experience": [
+    {
+      "company": "Saylani Tech Limited",
+      "position": "INTERN IN MERN STACK DEVELOPER",
+      "period": "January 2025 - Present",
+      "description": "Currently working as a MERN Stack Developer Intern. Developed a WhatsApp Bulk Messaging Chrome Extension. Experience in deploying applications on Vercel and using Git/GitHub for version control and collaboration. LMS Student Portal – Improved performance and user experience and implemented secure authentication with real-time updates."
+    }
+  ],
+  "education": [
+    {
+      "institution": "College",
+      "degree": "Computer Science",
+      "period": "2023 - 2025"
+    }
+  ],
+  "certifications": [
+    "Web And App Development in SMIT",
+    "Skill Accelerator in SMIT",
+    "CS. in Computer Science"
+  ],
+  "skills": [
+    { "name": "JavaScript & ES6", "level": 90 },
+    { "name": "TypeScript", "level": 60 },
+    { "name": "ReactJS", "level": 90 },
+    { "name": "ExpressJS", "level": 85 },
+    { "name": "NodeJS", "level": 85 },
+    { "name": "MongoDB", "level": 80 },
+    { "name": "Firebase", "level": 75 },
+    { "name": "Ant Design", "level": 85 },
+    { "name": "Tailwind CSS", "level": 90 },
+    { "name": "Git & GitHub", "level": 85 },
+    { "name": "Problem Solving", "level": 85 },
+    { "name": "Project Management", "level": 80 }
+  ],
+  "projects": [
+    {
+      "title": "WhatsApp Bulk Messaging",
+      "description": "A Chrome Extension for sending bulk messages on WhatsApp with customizable templates and scheduling features.",
+      "image": "https://lh3.googleusercontent.com/ABoxEJdHTiRO2OtD16_WMhDL5vWUog4g8P5EEUDiOfVR1dSPzkMInPeMlJjQkbIFW34NAMNgulf5BWDn-8cTO-UO4Uo=s1280-w1280-h800",
+      "tags": ["JavaScript", "Chrome API", "WWeb.JS"],
+      "demoUrl": "https://chromewebstore.google.com/detail/smit-wa-connect/nabkbdggdphbbmifmgmdioddechcdmfc",
+      "githubUrl": ""
+    },
+    {
+      "title": "Portfolio Website",
+      "description": "A modern portfolio website built with Next.js and Tailwind CSS to showcase projects and skills.",
+      "image": "/portfolio.png",
+      "tags": ["Next.js", "Tailwind CSS", "Framer Motion"],
+      "demoUrl": "https://hamaildev.vercel.app",
+      "githubUrl": ""
+    }
+  ],
+  "theme": {
+    "colors": {
+      "primary": "142.1 76.2% 36.3%",
+      "primaryDark": "142.1 70.6% 45.3%"
+    }
+  }
+}
