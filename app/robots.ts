@@ -3,18 +3,10 @@ import type { MetadataRoute } from 'next'
 export default function robots(): MetadataRoute.Robots {
   return {
     rules: [
-      // Allow all bots but disallow some paths
       {
         userAgent: '*',
         allow: '/',
-        disallow: ['/admin/', '/private/', '/confidential/'],
       },
-      // Googlebot specific rule - allow everything
-      {
-        userAgent: 'Googlebot',
-        allow: '/',
-        disallow: [],
-      }
     ],
     sitemap: 'https://hamail.vercel.app/sitemap.xml',
   }
