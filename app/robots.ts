@@ -16,6 +16,6 @@ export default function robots(): MetadataRoute.Robots {
         disallow: [],
       }
     ],
-    sitemap: 'https://hamaildev.vercel.app/sitemap.xml',
+    sitemap: 'https://hamail.vercel.app/sitemap.xml',
   }
 }
