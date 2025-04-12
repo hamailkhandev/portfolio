@@ -98,7 +98,7 @@ export function Header() {
             </div>
           ))}
           <Button className="transition-colors hover:bg-primary/90" asChild>
-            <a href={siteConfig.resumeUrl} download>
+            <a href={siteConfig.resumeUrl} target="_blank" >
               <FileText className="mr-2 h-4 w-4" /> Resume
             </a>
           </Button>
@@ -147,7 +147,7 @@ export function Header() {
                 transition={{ type: "spring", stiffness: 300, delay: 0.3 }}
               >
                 <Button className="w-full transition-colors hover:bg-primary/90" asChild>
-                  <a href={siteConfig.resumeUrl} download>
+                  <a href={siteConfig.resumeUrl} target="_blank" >
                     <FileText className="mr-2 h-4 w-4" /> Resume
                   </a>
                 </Button>

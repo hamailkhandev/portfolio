@@ -55,7 +55,7 @@ export function Hero() {
                   </Link>
                 </Button>
                 <Button variant="outline" className="transition-colors hover:bg-primary/10" asChild>
-                  <a href={siteConfig.resumeUrl} download>
+                  <a href={siteConfig.resumeUrl} target="_blank" >
                     <FileText className="mr-2 h-4 w-4" /> Resume
                   </a>
                 </Button>

@@ -69,7 +69,7 @@ export function About() {
 
             <Animate direction="left" delay={0.5}>
               <Button className="transition-colors hover:bg-primary/90" asChild>
-                <a href={siteConfig.resumeUrl} download>
+                <a href={siteConfig.resumeUrl} target="_blank" >
                   <FileText className="mr-2 h-4 w-4" /> Download CV
                 </a>
               </Button>

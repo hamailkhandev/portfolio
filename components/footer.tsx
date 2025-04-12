@@ -73,7 +73,7 @@ export function Footer() {
                 <li>
                   <a
                     href={siteConfig.resumeUrl}
-                    download
+                    target="_blank" 
                     className="text-muted-foreground hover:text-primary flex items-center"
                   >
                     <FileText className="h-4 w-4 mr-2" /> Resume
