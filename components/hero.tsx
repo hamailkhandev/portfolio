@@ -7,6 +7,8 @@ import { Animate } from "./animations/animate"
 import { ParticlesBackground } from "./particles-background"
 import { TypingAnimation } from "./typing-animation"
 import siteConfig from "@/config/site-config.json"
+import { SiUpwork } from "react-icons/si";
+
 
 export function Hero() {
   return (
@@ -75,6 +77,13 @@ export function Hero() {
                   <Link href={siteConfig.socialLinks.linkedin} target="_blank" rel="noopener noreferrer">
                     <Button variant="ghost" size="icon" className="rounded-full transition-colors hover:bg-primary/10">
                       <Linkedin className="h-5 w-5" />
+                    </Button>
+                  </Link>
+                )}
+                {siteConfig.socialLinks.upwork && (
+                  <Link href={siteConfig.socialLinks.upwork} target="_blank" rel="noopener noreferrer">
+                    <Button variant="ghost" size="icon" className="rounded-full transition-colors hover:bg-primary/10">
+                    <SiUpwork className="h-5 w-5" />
                     </Button>
                   </Link>
                 )}

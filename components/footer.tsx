@@ -5,6 +5,7 @@ import { Github, Linkedin, Mail, Phone, MapPin, FileText } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Animate } from "./animations/animate"
 import siteConfig from "@/config/site-config.json"
+import { SiUpwork } from "react-icons/si"
 
 export function Footer() {
   return (
@@ -48,6 +49,19 @@ export function Footer() {
                     </Link>
                   </Button>
                 )}
+                {siteConfig.socialLinks.upwork && (
+                  <Button
+                    variant="ghost"
+                    size="icon"
+                    className="rounded-full bg-primary/10 hover:bg-primary/20"
+                    asChild
+                  >
+                    <Link href={siteConfig.socialLinks.upwork} target="_blank" rel="noopener noreferrer">
+                      <SiUpwork className="h-5 w-5 text-primary" />
+                      <span className="sr-only">Upwork</span>
+                    </Link>
+                  </Button>
+                )}
 
                 <Button variant="ghost" size="icon" className="rounded-full bg-primary/10 hover:bg-primary/20" asChild>
                   <Link href={`mailto:${siteConfig.email}`}>
@@ -73,7 +87,7 @@ export function Footer() {
                 <li>
                   <a
                     href={siteConfig.resumeUrl}
-                    target="_blank" 
+                    target="_blank"
                     className="text-muted-foreground hover:text-primary flex items-center"
                   >
                     <FileText className="h-4 w-4 mr-2" /> Resume
