@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     "Portfolio",
   ],
   other: {
-    "google-site-verification": "yHGo8Fkunc6bUHu_mhOjVL9WA_7ubxVaFqqtrZOGHOo",
+    "google-site-verification": "NdibaD93GCqGdwknZmpm8Ufyb6SbPuojUKX8jb9GHMk",
   },
   authors: [{ name: "Muhammad Hamail Khan" }],
   creator: "Muhammad Hamail Khan",
