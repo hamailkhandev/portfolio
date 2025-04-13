@@ -44,6 +44,7 @@ export default function Home() {
       sameAs: [
         "https://github.com/hamailkhandev",
         "https://www.linkedin.com/in/hamail-khan-dev/",
+         "https://www.upwork.com/freelancers/~015723fb14ff8bced6"
       ],
       image: "https://hamail.vercel.app/profile-image.png",
       description:
