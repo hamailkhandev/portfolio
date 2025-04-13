@@ -40,12 +40,12 @@ export default function Home() {
       "@type": "Person",
       name: "Muhammad Hamail Khan",
       jobTitle: "MERN Stack Developer",
-      url: "https://hamaildev.vercel.app",
+      url: "https://hamail.vercel.app",
       sameAs: [
         "https://github.com/hamailkhandev",
         "https://www.linkedin.com/in/hamail-khan-dev/",
       ],
-      image: "https://hamaildev.vercel.app/profile-image.png",
+      image: "https://hamail.vercel.app/profile-image.png",
       description:
         "Highly talented MERN Stack Developer with extensive experience developing scalable, high-performance web applications.",
       email: "mhamailkhandev@gmail.com",
