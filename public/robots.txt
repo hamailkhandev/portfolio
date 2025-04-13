@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://hamail.vercel.app
+
+# Sitemaps
+Sitemap: https://hamail.vercel.app/sitemap.xml
