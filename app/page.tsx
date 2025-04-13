@@ -110,6 +110,7 @@ export default function Home() {
           content="https://hamaildev.vercel.app/profile-image.png"
         />
         <link rel="canonical" href="https://hamaildev.vercel.app" />
+        <link rel="icon" href="/icon.ico" />
       </Head>
 
       <FadeIn>
