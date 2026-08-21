@@ -1,18 +1,18 @@
 {
   "name": "Muhammad Hamail Khan",
-  "title": "MERN STACK DEVELOPER",
+  "title": "BACKEND DEVELOPER",
   "email": "mhamailkhandev@gmail.com",
   "phone": "+92 307 5922237",
   "location": "Karachi, Pakistan",
-  "bio": "Highly talented MERN Stack Developer with extensive experience developing scalable, high-performance web applications. Specialized in creating modern, responsive web applications with cutting-edge technologies.",
+  "bio": "Junior Backend Developer specializing in NestJS and PostgreSQL, with hands-on experience building REST APIs and scalable backend applications. Experienced in Node.js, database design, authentication, and API development, with additional knowledge of Express.js and MongoDB.",
   "resumeUrl": "https://drive.google.com/file/d/1162LV8XPEF3U4FE1RvYGkZ1y3Z6LuZ9W/view?usp=sharing",
   "profileImage": "/profile-image-new.png",
   "aboutImage": "/about-image.jpeg",
   "typingTexts": [
-    "MERN Stack Developer",
-    "Full Stack Developer",
-    "Frontend Developer",
-    "Backend Developer"
+    "Backend Developer",
+    "NestJS Developer",
+    "Node.js Developer",
+    "Full Stack Developer"
   ],
   "socialLinks": {
     "github": "https://github.com/hamailkhandev",
@@ -23,52 +23,83 @@
   "experience": [
     {
       "company": "Saylani Tech Limited",
-      "position": "INTERN IN MERN STACK DEVELOPER",
-      "period": "January 2025 - Present",
-      "description": "Currently working as a MERN Stack Developer Intern. Developed a WhatsApp Bulk Messaging Chrome Extension. Experience in deploying applications on Vercel and using Git/GitHub for version control and collaboration. LMS Student Portal – Improved performance and user experience and implemented secure authentication with real-time updates."
+      "position": "FULL STACK DEVELOPER INTERN",
+      "period": "2025 - 2025 | 6 Months",
+      "description": "Completed a Full Stack Developer internship. Developed a WhatsApp Bulk Messaging Chrome Extension and worked with Git/GitHub for version control and collaboration. Improved the LMS Student Portal performance and user experience, and implemented secure authentication with real-time updates."
     }
   ],
   "education": [
     {
-      "institution": "College",
-      "degree": "Computer Science",
+      "institution": "Govt. City College",
+      "degree": "Intermediate in Computer Science",
       "period": "2023 - 2025"
+    },
+    {
+      "institution": "Federal Urdu University",
+      "degree": "Bachelor of Science in Computer Science",
+      "period": "2025 - Present"
     }
   ],
   "certifications": [
-    "Web And App Development in SMIT",
-    "Skill Accelerator in SMIT",
-    "CS. in Computer Science"
+    "Web and App Development - SMIT",
+    "Skill Accelerator - SMIT"
   ],
   "skills": [
-    { "name": "JavaScript & ES6", "level": 90 },
-    { "name": "TypeScript", "level": 60 },
-    { "name": "ReactJS", "level": 90 },
-    { "name": "ExpressJS", "level": 85 },
+    { "name": "NestJS", "level": 85 },
+    { "name": "PostgreSQL", "level": 85 },
     { "name": "NodeJS", "level": 85 },
+    { "name": "TypeScript", "level": 80 },
+    { "name": "ExpressJS", "level": 85 },
+    { "name": "Redis", "level": 75 },
+    { "name": "BullMQ", "level": 75 },
+    { "name": "REST APIs", "level": 85 },
+    { "name": "JavaScript & ES6", "level": 90 },
     { "name": "MongoDB", "level": 80 },
-    { "name": "Firebase", "level": 75 },
-    { "name": "Ant Design", "level": 85 },
-    { "name": "Tailwind CSS", "level": 90 },
+    { "name": "NextJS", "level": 80 },
+    { "name": "ReactJS", "level": 85 },
+    { "name": "Tailwind CSS", "level": 85 },
     { "name": "Git & GitHub", "level": 85 },
-    { "name": "Problem Solving", "level": 85 },
-    { "name": "Project Management", "level": 80 }
+    { "name": "Problem Solving", "level": 85 }
   ],
   "projects": [
+    {
+      "title": "YugenVerse – Web Application",
+      "description": "A full-stack web application built with Next.js, TypeScript, Tailwind CSS, and shadcn/ui. Developed backend services using NestJS and PostgreSQL, with Redis and BullMQ for background job processing and task management.",
+      "image": "/yugenverse.png",
+      "tags": [
+        "Next.js",
+        "TypeScript",
+        "NestJS",
+        "PostgreSQL",
+        "Redis",
+        "BullMQ",
+        "Tailwind CSS",
+        "shadcn/ui"
+      ],
+      "demoUrl": "https://yugenverse.devxylor.com",
+      "githubUrl": ""
+    },
+    {
+      "title": "Devxylor.com – Company Website",
+      "description": "Built a full-stack company website using Next.js and Node.js.",
+      "image": "/devxylor.png",
+      "tags": [
+        "Next.js",
+        "Node.js"
+      ],
+      "demoUrl": "https://devxylor.com",
+      "githubUrl": ""
+    },
     {
       "title": "WhatsApp Bulk Messaging",
       "description": "A Chrome Extension for sending bulk messages on WhatsApp with customizable templates and scheduling features.",
       "image": "https://lh3.googleusercontent.com/ABoxEJdHTiRO2OtD16_WMhDL5vWUog4g8P5EEUDiOfVR1dSPzkMInPeMlJjQkbIFW34NAMNgulf5BWDn-8cTO-UO4Uo=s1280-w1280-h800",
-      "tags": ["JavaScript", "Chrome API", "WWeb.JS"],
+      "tags": [
+        "JavaScript",
+        "Chrome API",
+        "WWeb.JS"
+      ],
       "demoUrl": "https://chromewebstore.google.com/detail/smit-wa-connect/nabkbdggdphbbmifmgmdioddechcdmfc",
-      "githubUrl": ""
-    },
-    {
-      "title": "Portfolio Website",
-      "description": "A modern portfolio website built with Next.js and Tailwind CSS to showcase projects and skills.",
-      "image": "/portfolio.png",
-      "tags": ["Next.js", "Tailwind CSS", "Framer Motion"],
-      "demoUrl": "https://hamaildev.vercel.app",
       "githubUrl": ""
     }
   ],
