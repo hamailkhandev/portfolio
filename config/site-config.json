@@ -79,17 +79,19 @@
       "demoUrl": "https://yugenverse.devxylor.com",
       "githubUrl": ""
     },
-    {
-      "title": "Devxylor.com – Company Website",
-      "description": "Built a full-stack company website using Next.js and Node.js.",
-      "image": "/devxylor.png",
-      "tags": [
-        "Next.js",
-        "Node.js"
-      ],
-      "demoUrl": "https://devxylor.com",
-      "githubUrl": ""
-    },
+   {
+  "title": "Devxylor.com – Company Website",
+  "description": "Built a modern full-stack company website using Next.js and Node.js, with MongoDB for data management and Tailwind CSS for responsive UI development.",
+  "image": "/devxylor.png",
+  "tags": [
+    "Next.js",
+    "Node.js",
+    "MongoDB",
+    "Tailwind CSS"
+  ],
+  "demoUrl": "https://devxylor.com",
+  "githubUrl": ""
+},
     {
       "title": "WhatsApp Bulk Messaging",
       "description": "A Chrome Extension for sending bulk messages on WhatsApp with customizable templates and scheduling features.",
